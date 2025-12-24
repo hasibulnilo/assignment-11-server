@@ -1425,7 +1425,7 @@ run().catch(console.dir);
 // ROOT
 // -------------------------------
 app.get("/", (req, res) => {
-  // res.send("Niloy er Server is running");
+  res.send("Niloy er Server is running");
 });
 
 // -------------------------------
