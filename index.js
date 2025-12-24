@@ -21,32 +21,7 @@ const serviceAccount = JSON.parse(decoded);
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
 });
-// Initialize Firebase Admin SDK
-// try {
-//   const serviceAccount = JSON.parse(
-//     fs.readFileSync(process.env.FIREBASE_ADMIN_SDK_PATH, "utf-8")
-//   );
-//   admin.initializeApp({
-//     credential: admin.credential.cert(serviceAccount),
-//   });
-// } catch (error) {
-//   console.error("Failed to initialize Firebase Admin SDK:", error.message);
-// }const fs = require("fs");
-// const admin = require("firebase-admin");
-// const fs = require("fs");
-// try {
-//   const serviceAccount = JSON.parse(
-//     fs.readFileSync("./firebase-service-account.json", "utf-8") // <-- এখানে সরাসরি পাথ বসাও
-//   );
 
-//   admin.initializeApp({
-//     credential: admin.credential.cert(serviceAccount),
-//   });
-
-//   console.log("Firebase Admin SDK initialized successfully.");
-// } catch (error) {
-//   console.error("Failed to initialize Firebase Admin SDK:", error.message);
-// }
 
 
 const app = express();
