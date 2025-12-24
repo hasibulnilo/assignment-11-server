@@ -11,7 +11,7 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const { url } = require("inspector");
 const { default: Stripe } = require("stripe");
 
-const port = process.env.PORT || 5000;
+// const port = process.env.PORT || 5000;
 const admin = require("firebase-admin");
 
 
