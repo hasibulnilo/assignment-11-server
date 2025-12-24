@@ -18,7 +18,9 @@ const admin = require("firebase-admin");
 const decoded = Buffer.from(process.env.FIREBASE_ADMIN_SDK_PATH, 'base64').toString('utf8')
 const serviceAccount = JSON.parse(decoded);
 
-
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount)
+});
 // Initialize Firebase Admin SDK
 // try {
 //   const serviceAccount = JSON.parse(
