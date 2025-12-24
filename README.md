@@ -5,7 +5,7 @@ This is the robust Node.js/Express backend for **UrbanPulse**, providing secure 
 ---
 
 ### 🚀 Live API Base URL
-- **Production:** []()
+- **Production:** [https://urban-pulse-server.vercel.app](https://urban-pulse-server.vercel.app)
 - **Local:** ``
 
 ---
@@ -65,7 +65,7 @@ UrbanPulse uses a relational-like NoSQL structure:
 
 1.  **Clone the server repo:**
     ```bash
-    git clone []()
+    git clone [https://github.com/hasibulnilo/assignment-11-server.git](https://github.com/hasibulnilo/assignment-11-server.git)
     ```
 2.  **Install dependencies:**
     ```bash
@@ -86,9 +86,9 @@ UrbanPulse uses a relational-like NoSQL structure:
 ---
 
 ### 👨‍💻 Developed By
-**Mohammad Abed Azim**
-- [LinkedIn]()
-- [GitHub]()
+**Hasibul Islam Niloy**
+- [LinkedIn](https://www.linkedin.com/in/hasibulislamniloy/)
+- [GitHub](https://github.com/hasibulnilo)
 
 ---
 © 2025 UrbanPulse API. Securely powering smarter cities.
